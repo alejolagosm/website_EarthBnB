@@ -1,3 +1,5 @@
 # EarthBnB
 
-Simple Landing Page for a rural homstay booking app
+Simple Landing Page Design for a booking app.
+
+Made using HTML and SASS

@@ -154,8 +154,8 @@ body {
   .header {
     flex-wrap: wrap;
     height: auto;
-    gap: 1rem;
-    padding-bottom: 0rem;
+    justify-content: space-between;
+    align-content: center;
   }
 
   .content {
@@ -270,12 +270,15 @@ body {
 @media only screen and (max-width: 500px) {
   .search {
     flex: 0 0 70%;
-    margin-right: auto;
+    margin-right: 0;
+    margin: auto;
+    order: 1;
+    padding: 0.5rem 0 1rem;
   }
 
   .user-nav {
     margin-right: 0rem;
-    flex: 0 0 100%;
+    flex: 0 0 50%;
     justify-content: center;
     gap: 1rem;
   }
